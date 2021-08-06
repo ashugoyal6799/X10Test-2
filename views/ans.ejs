@@ -1,0 +1,18 @@
+<%- include("partials/headerAns"); -%>
+    <div >
+        <form action="/<%=subject%>/result" method="POST" target="_blank">
+            <input name="q1" value="<%=userans1%>" type="hidden">
+            <input name="q2" value="<%=userans2%>" type="hidden">
+            <input name="q3" value="<%=userans3%>" type="hidden">
+            <input name="score" value="<%=ans%>" type="hidden">
+            <button class="resBox" type="submit">Show Results</button>
+        </form>
+    </div>
+    <h1 style="text-align: center; margin-top: 10px; font-family: 'Inconsolata', monospace; color : red">Your score is <%= ans%></h1>
+    <div class="anc">
+        <a href="/">Back to Home Page</a>
+    </div>
+    
+    <%- include("partials/footerAns"); -%>
+
+    

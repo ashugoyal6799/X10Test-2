@@ -1,0 +1,70 @@
+/*  -----------------navaigation styles  -----------*/
+.nav-link{
+    margin-left: 50px;
+}
+
+.nav-last{
+    margin-right: 100px;
+}
+.head {
+    padding-top: 7px;
+    background-color: green;
+    text-align: center;
+    height:  50px;
+}
+.footer {
+    text-align: center;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    /* height:60px;   Height of the footer */
+    background:#6cf;
+}
+.anc{
+    text-align: center;
+}
+a:link, a:visited {
+    background-color: 	#BC8F8F;
+    color: white;
+    padding: 14px 25px; 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+}
+
+a:hover, a:active {
+    background-color: black;
+}
+
+ .resBox{
+    margin-left: 550px;
+    margin-top: 170px;
+    background-color: black;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    width: 180px;
+    height: 50px;
+    font-family: 'Itim', cursive;
+    font-size: 1.4rem;
+    padding: 5px;
+}  
+.resBox:hover{
+    background-color: blue;
+}
+
+.regTop{
+    background-color: white;
+    margin-top: 50px;
+}
+
+.warningMsg{
+    color: red;
+}
+
+.que{
+    background-color: white;
+    margin-top: 20px;
+}

@@ -1,0 +1,60 @@
+<%- include("partials/header"); -%>
+<div style="background-color: beige; text-align: center;">
+  <h3>Attempt this Algorithm quiz !!</h3>
+</div>
+
+<div class="container b1">
+    <form action="/algo" method="POST">
+        <br><br>
+        
+        <br><strong>1) Given an unsorted array. The array has this property that every element in array is at most k distance from its position in sorted array where k is a positive integer smaller than size of array. Which sorting algorithm can be easily modified for sorting this array and what is the obtainable time complexity? </strong><br></b>
+        <blockquote>
+        <input type="radio" name="q1" value="A" id="a" required> 
+        <label for="a">Insertion Sort with time complexity O(kn)</label><br>
+        <input type="radio" name="q1" value="B" id="b" required> 
+        <label for="b">Heap Sort with time complexity O(nLogk)</label> <br>
+        <input type="radio" name="q1" value="C" id="c" required> 
+        <label for="c">Quick Sort with time complexity O(kLogk) </label><br>
+        <input type="radio" name="q1" value="D" id="d" required> 
+        <label for="d">   Merge Sort with time complexity O(kLogk)</label><br>
+        </blockquote>
+        <hr>
+        
+        <br><strong>2) Let G be an undirected graph. Consider a depth-first traversal of G, and let T be the resulting depth-first search tree. Let u be a vertex in G and let v be the first new (unvisited) vertex visited after visiting u in the traversal. Which of the following statements is always true?</strong><br></b>
+        <blockquote>
+        <input type="radio" name="q2" value="A" id="a2" required> 
+        <label for="a2"> {u,v} must be an edge in G, and u is a descendant of v in T</label><br>
+        <input type="radio" name="q2" value="B" id="b2" required> 
+        <label for="b2"> {u,v} must be an edge in G, and v is a descendant of u in T</label><br>
+        <input type="radio" name="q2" value="C" id="c2" required> 
+        <label for="c2"> If {u,v} is not an edge in G then u is a leaf in T</label><br>
+        <input type="radio" name="q2" value="D" id="d2" required> 
+        <label for="d2"> If {u,v} is not an edge in G then u and v must have the same parent in T</label><br>
+        </blockquote>
+        <hr>
+        <br><strong>3)What is the time complexity of the following recursive function:</strong><br>
+        <pre>
+            int DoSomething (int n) 
+            {
+                if (n <= 2)
+                    return 1;
+                else 
+                    return (DoSomething (floor(sqrt(n))) + n);
+            }
+        </pre>
+        <blockquote>
+        <input type="radio" name="q3" value="A" id="a3" required> 
+        <label for="a3"> θ(n)</label><br>
+        <input type="radio" name="q3" value="B" id="b3" required> 
+        <label for="b3"> θ(nlogn)</label><br>
+        <input type="radio" name="q3" value="C" id="c3" required>
+        <label for="c3">  θ(logn)</label><br>
+        <input type="radio" name="q3" value="D" id="d3" required>
+        <label for="d3"> θ(loglogn)</label><br>
+        </blockquote>
+        <button type="submit" class="btn-primary" style="width: 150px; margin-left: 500px; height: 40px; margin-top: 35px;">Submit</button>
+    </form> 
+</div>
+
+
+<%- include("partials/footer"); -%>

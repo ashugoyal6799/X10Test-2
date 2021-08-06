@@ -1,0 +1,33 @@
+.ans{
+    background-color: #33FF33;
+    font-family: 'Nunito', sans-serif;
+}
+.userans{
+    background-color: #A9A9A9;
+    width: 180px;
+    margin: 5px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 1.5rem;
+}
+h4{
+    padding: 3px;
+    color: #8B008B;
+}
+strong {
+    font-size: 1.15rem;
+}
+
+.score{
+    background-color: #F0FFFF;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+}
+span{
+    color: red;
+}
+
+.footer-padding{
+    background:#6cf;
+    text-align: center;
+    padding: 3px;
+}

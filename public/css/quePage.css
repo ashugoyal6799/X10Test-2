@@ -1,0 +1,25 @@
+/*  -----------------navaigation styles  -----------*/
+.nav-link{
+    margin-left: 50px;
+}
+
+.nav-last{
+    margin-right: 100px;
+}
+
+ /* .timer{
+    height: 50px;
+    width: 200px;
+    background-color: #CD5C5C;
+    /* float: right; */
+    /* margin-left: 900px;
+    padding: 13px;
+    margin-bottom: 1px; */
+/* }  */ */
+.timer1{
+    /* height: 50px;
+    width: 200px; */
+    background-color: #CD5C5C !important;
+    /* float: right; */
+    color: red;
+} 

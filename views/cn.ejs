@@ -1,0 +1,51 @@
+<%- include("partials/header"); -%>
+<div style="background-color: beige; text-align: center;">
+  <h3>Attempt this Computer Network quiz !!</h3>
+</div>
+
+<div class="container b1">
+    <form action="/cn" method="POST">
+        <br><br>
+        
+        <br><strong>1) An Internet Service Provider(ISP) has the following chunk of CIDR-based IP addresses available with it:245.248.128.0/20. The ISP wants to give half of this chunk of addreses to Organization A, and a quarter to Organization B, while retaining the remaining with itself. Which of the following is a valid allocation of addresses to A and B? </strong><br></b>
+        <blockquote>
+        <input type="radio" name="q1" value="A" id="a1" required> 
+        <label for="a1">245.248.136.0/21 and 245.248.128.0/22</label><br>
+        <input type="radio" name="q1" value="B" id="b1" required>
+        <label for="b1">245.248.128.0/21 and 245.248.128.0/22</label><br>
+        <input type="radio" name="q1" value="C" id="c1" required>
+        <label for="c1">245.248.132.0/22 and 245.248.132.0/21</label><br>
+        <input type="radio" name="q1" value="D" id="d1" required>
+        <label for="d1">245.248.136.0/22 and 245.248.132.0/21</label><br>
+        </blockquote>
+        <hr>
+        
+        <br><strong>2) In a network of LANs connected by bridges, packets are sent from one LAN to another through intermediate bridges. Since more than one path may exist between two LANs, packets may have to be routed through multiple bridges. Why is the spanning tree algorithm used for bridge-routing?</strong><br></b>
+        <blockquote>
+        <input type="radio" name="q2" value="A" id="a2" required> 
+        <label for="a2">For shortest path routing between LANs</label><br>
+        <input type="radio" name="q2" value="B" id="b2" required> 
+        <label for="b2">For avoiding loops in the routing paths</label><br>
+        <input type="radio" name="q2" value="C" id="c2" required> 
+        <label for="c2">For fault tolerance</label><br>
+        <input type="radio" name="q2" value="D" id="d2" required>
+        <label for="d2">For minimizing collisions</label><br>
+        </blockquote>
+        <hr>
+        <br><strong>3) In the slow start phase of the TCP congestion control algorithm, the size of the congestion window</strong><br>
+        <blockquote>
+        <input type="radio" name="q3" value="A" id="a3" required>
+        <label for="a3">does not increase</label><br>
+        <input type="radio" name="q3" value="B" id="b3" required>
+        <label for="b3"> increases linearly</label><br>
+        <input type="radio" name="q3" value="C" id="c3" required> 
+        <label for="c3">increases quadratically</label><br>
+        <input type="radio" name="q3" value="D" id="d3" required> 
+        <label for="d3">increases exponentially</label><br>
+        </blockquote>
+        <button type="submit" class="btn-primary" style="width: 150px; margin-left: 500px; height: 40px; margin-top: 35px;">Submit</button>
+    </form> 
+</div>
+
+
+<%- include("partials/footer"); -%>

@@ -1,0 +1,33 @@
+body{
+    background-color: cornsilk;
+}
+
+/*  -----------------navaigation styles  -----------*/
+.nav-link{
+    margin-left: 50px;
+}
+
+.nav-last{
+    margin-right: 100px;
+}
+
+/* quiz section css */
+.quiz-section{
+    padding: 100px 0px 80px;
+}
+
+.img-setting{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+}
+
+
+.icon-set{
+    padding:30px;
+}
+
+.subject-menu{
+    font-size: 220%;
+}

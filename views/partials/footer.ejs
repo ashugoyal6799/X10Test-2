@@ -1,0 +1,25 @@
+
+</div>
+
+<div class="footer-padding"></div>
+  <div class="footer" style="font-family: 'Itim', cursive;">
+    <div style="width: 100%; height: 50px; background-color: #696969; padding-top: 10px; margin-top: 10px;">
+      <p style="text-align: center; color: white;">Copyright@ Ashu-Goyal 2020</p> 
+    </div>
+  </div>
+</div>
+</body>
+<script>
+  var sec = 300;
+  var time = setInterval(myTimer, 1000);
+
+function myTimer() {
+    document.getElementById('timer').innerHTML = sec + "sec ";
+    sec--;
+    if (sec == -1) {
+        clearInterval(time);
+        alert("Time out!! :(");
+    }
+}
+</script>
+</html>

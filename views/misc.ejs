@@ -1,0 +1,66 @@
+<%- include("partials/header"); -%>
+<div style="background-color: beige; text-align: center;">
+  <h3>Attempt this Misc. quiz !!</h3>
+</div>
+
+<div class="container b1">
+    <form action="/misc" method="POST">
+        <br><br>
+        
+        <br><strong>1) Predict the output? </strong><br>
+        <pre>
+            int fun(char *str1)
+            {
+                char *str2 = str1;
+                while(*++str1);
+                return (str1-str2);
+            }
+ 
+            int main()
+            {
+                char *str = "GeeksQuiz";
+                printf("%d", fun(str));
+                return 0;
+            }
+        </pre>
+        <blockquote>
+        <input type="radio" name="q1" value="A" id="a1" required> 
+        <label for="a1">10</label><br>
+        <input type="radio" name="q1" value="B" id="b1" required>
+        <label for="b1">9</label><br>
+        <input type="radio" name="q1" value="C" id="c1" required>
+        <label for="c1">8</label><br>
+        <input type="radio" name="q1" value="D" id="d1" required>
+        <label for="d1">Random Number</label><br>
+        </blockquote>
+        <hr>
+        
+        <br><strong>2) Consider a virtual memory system with FIFO page replacement policy. For an arbitrary page access pattern, increasing the number of page frames in main memory will</strong><br></b>
+        <blockquote>
+        <input type="radio" name="q2" value="A" id="a2" required> 
+        <label for="a2"> Always decrease the number of page faults</label><br>
+        <input type="radio" name="q2" value="B" id="b2" required> 
+        <label for="b2">Always increase the number of page faults</label><br>
+        <input type="radio" name="q2" value="C" id="c2" required> 
+        <label for="c2">Some times increase the number of page faults</label><br>
+        <input type="radio" name="q2" value="D" id="d2" required>
+        <label for="d2"> Never affect the number of page faults</label><br>
+        </blockquote>
+        <hr>
+        <br><strong>3) Which of the following points is/are not true about Linked List data structure when it is compared with array?</strong><br>
+        <blockquote>
+        <input type="radio" name="q3" value="A" id="a3" required>
+        <label for="a3">Arrays have better cache locality that can make them better in terms of performance</label><br>
+        <input type="radio" name="q3" value="B" id="b3" required>
+        <label for="b3"> It is easy to insert and delete elements in Linked List</label><br>
+        <input type="radio" name="q3" value="C" id="c3" required> 
+        <label for="c3">Random access is not allowed in a typical implementation of Linked Lists</label><br>
+        <input type="radio" name="q3" value="D" id="d3" required> 
+        <label for="d3">Access of elements in linked list takes less time than compared to arrays</label><br>
+        </blockquote>
+        <button type="submit" class="btn-primary" style="width: 150px; margin-left: 500px; height: 40px; margin-top: 35px;">Submit</button>
+    </form> 
+</div>
+
+
+<%- include("partials/footer"); -%>
